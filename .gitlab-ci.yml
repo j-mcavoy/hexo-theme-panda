@@ -2,4 +2,4 @@ staging:
   stage: deploy
   trigger:
     project: https://gitlab.com/j-mcavoy-sites/blog
-    branch: stable-11-2
+    branch: master
