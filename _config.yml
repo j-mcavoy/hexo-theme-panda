@@ -20,7 +20,7 @@ about_footer: This page's source code is available on <a href="https://gitlab.co
 default_post_title: Untitled
 
 # Default post cover index page (Recommended)
-default_cover_index: /images/place_holders/index.png
+default_cover_index: images/place_holders/index.png
 
 # Default post cover index page (Optional)
 default_cover_detail:
@@ -34,4 +34,4 @@ github_url: https://github.com/j-mcavoy/
 linkedin_url: http://linkedin.com/in/john-mcavoy-8b888b183
 email_url: mailto:j-mcavoy
 website_url: https://j-mcavoy.gitlab.io/
-rss_url: /rss.xml
+rss_url: rss.xml
