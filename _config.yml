@@ -5,7 +5,7 @@ menu:
   About: /about
 
 # Logo Image Source
-logo_src: /images/panda_icon.png
+logo_src: images/panda_icon.png
 
 # Theme Main Subtitle
 subtitle_main: This is an Electrical Hardware and Software blog.
