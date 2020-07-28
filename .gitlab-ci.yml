@@ -1,9 +1,3 @@
-rspec:
-  stage: test
-  script: bundle exec rspec
-
-staging:
-  stage: deploy
-  trigger:
-    project: https://gitlab.com/j-mcavoy-sites/blog
-    branch: master
+trigger:
+  project: https://gitlab.com/j-mcavoy-sites/blog
+  branch: master
