@@ -16,6 +16,10 @@
     <%- partial('gallery') %>
 <% } %>
 
+
+<!-- Table of Contents -->
+<%- toc(item.content, {list_number: false}) %>
+
 <!-- Content -->
 <%- item.content %>
 
@@ -26,4 +30,3 @@
 <div>
     <%- partial("_partial/comments.ejs") %>
 </div>
-

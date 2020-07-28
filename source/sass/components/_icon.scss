@@ -18,24 +18,27 @@
     &.style1 {
     }
 
-    i &.style2  {
+    i
+    {
+        &:before {
+            font-size: 2em;
+        }
+
+        &.style2  {
         @include vendor('transition', (
         'background-color #{_duration(transition)} ease-in-out',
         'color #{_duration(transition)} ease-in-out',
         'border-color #{_duration(transition)} ease-in-out'
         ));
         background-color: transparent;
-        width: 2em;
-        height: 2em;
+        width: 4em;
+        height: 4em;
         display: inline-block;
         text-align: center;
         line-height: 2.65em;
         color: inherit;
         font-size: 2em;
 
-        &:before {
-            font-size: 1.1em;
-        }
 
         &:hover {
             color: _palette(accent1);
@@ -45,5 +48,6 @@
         &:active {
             background-color: transparentize(_palette(accent1), 0.9);
         }
+    }
     }
 }

@@ -29,8 +29,9 @@ default_cover_detail:
 show_dates: true
 
 # Social Accounts
-gitlab_url: https://github.com/j-mcavoy/
+gitlab_url: https://gitlab.com/j-mcavoy/
 github_url: https://github.com/j-mcavoy/
 linkedin_url: http://linkedin.com/in/john-mcavoy-8b888b183
 email_url: mailto:j-mcavoy
 website_url: https://j-mcavoy.gitlab.io/
+rss_url: /rss.xml
