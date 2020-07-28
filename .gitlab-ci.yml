@@ -1,7 +1,5 @@
-stages:
-  - trigger
-
-trigger:
-  stage: trigger
-  project: https://gitlab.com/j-mcavoy-sites/blog
-  branch: master
+deploy:
+  stage: deploy
+  trigger:
+    project: https://gitlab.com/j-mcavoy-sites/blog
+    branch: master
