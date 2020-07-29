@@ -14,7 +14,7 @@ subtitle_main: This is an Electrical Hardware and Software blog.
 susbtitle_secondary: Here is documentation for the projects I've worked on, tutorials and code snippets, and notes about projects and ideas that I'm working on.
 
 # Footer About Section
-about_footer: This page's source code is available on <a href="https://gitlab.com/j-mcavoy/blog" target="_blank">GitLab</a>. &copy; John McAvoy. All rights reserved
+about_footer: <div>This page's source code is available on <a href="https://gitlab.com/j-mcavoy/blog" target="_blank">GitLab</a>.</div><div>&copy; John McAvoy. All rights reserved</div>
 
 # Default post title
 default_post_title: Untitled
