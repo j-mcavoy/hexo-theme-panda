@@ -2,6 +2,9 @@
     var cssClass = "style" + (index % 12 + 1);
 %>
 
+<% let hide = false %>
+<% item.tags.map(tag => {hide = hide ? true : 'DaVinci Challenge' == tag.name}) %>
+<% if(!hide) { %>
 <article class="<%- cssClass %>">
     <span class="image">
         <img src="<%- item.cover_index ? (item.path + item.cover_index) : theme.default_cover_index %>" alt="" />
@@ -13,3 +16,4 @@
         </div>
     </a>
 </article>
+<% } %>
